@@ -1,10 +1,12 @@
-import React from 'react'
-import {NavBar} from 'react-bootstrap'
+import React from 'react';
+import {BarraNavegar} from 'react-bootstrap';
+import Nav from 'react'
 
-export default function NavBar() {
+export default function BarraNavegar() {
     return (
         <Navbar bg="light" expand="lg">
             <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+            <CartWidget/>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
@@ -26,3 +28,10 @@ export default function NavBar() {
         </Navbar>
     )
 }
+
+function ItemListContainer() {
+    return (
+        <p>Bienvenido a Stomp Shoes</p>
+    )
+  }
+  
