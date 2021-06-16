@@ -1,6 +1,9 @@
 import React from 'react';
-import {BarraNavegar} from 'react-bootstrap';
-import Nav from 'react'
+import {Navbar, Nav, NavDropdown, Form, FormControl, Button} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import CartWidget from './CartWidget';
+
 
 export default function BarraNavegar() {
     return (
@@ -29,9 +32,9 @@ export default function BarraNavegar() {
     )
 }
 
-function ItemListContainer() {
-    return (
-        <p>Bienvenido a Stomp Shoes</p>
-    )
-  }
+// function ItemListContainer() {
+//     return (
+//         <p>Bienvenido a Stomp Shoes</p>
+//     )
+// }
   

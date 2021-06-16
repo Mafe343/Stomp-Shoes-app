@@ -1,16 +1,19 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import CartWidget from './components/CartWidget';
 import BarraNavegar from './components/BarraNavegar';
-import ItemListContainer from './components/ItemListContainer';
+// import Children from './components/Children';
+// import State from './components/State';
+// import UseState from './components/UseState';
+import ItemCount from './components/ItemCount';
+import Item from './components/Item';
 
 function App() {
   return (
     <div className="App">
       <BarraNavegar/>
-      <ItemListContainer/>
-      <CartWidget/>
-      <header className="App-header">
+      <ItemCount/>
+      <Item/>
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -24,7 +27,13 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
+      {/* <Children>
+        <h1>Hola React</h1>
+      </Children>
+      <State/>
+      <UseState/> */}
+      <ItemCount/>
     </div>
   );
 }
